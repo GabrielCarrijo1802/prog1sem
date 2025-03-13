@@ -1,0 +1,57 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align:center;
+}
+header {
+background: #F29F05;
+color: white;   
+padding: 15px 0; /*espaçamento interno 15px acima e abaixo, e 0 esquerda á direita*/
+font-size: 24px;
+border: 1px solid black;
+}
+
+nav {
+    background-color: #056CF2;
+    padding: 10px;
+    display: flex;
+    /* alinhamento na horizontal - espaço entre os links */
+    justify-content: space-between;
+    /* alinhamento na vertical*/
+    align-items: center;
+}
+#links-menu{
+    display:flex;
+    gap: 20px;
+}
+/* configura o estilo das âncoras que estão dentro do nav*/
+nav a{
+    color:white; /* texto branco*/
+    text-decoration: none; /* não faz decoração no link*/
+    padding: 10px 15px; /* 10px acima e abaixo e 15px esquerda á direita*/
+    font-size: 18px; /*18px o tamanho da fonte*/
+    background: #04B2D9; /* cor de fundo*/
+    border-radius: 5px; /* borda com canto arredondado*/
+}
+
+    nav a:hover{
+        background: black;
+    }
+
+    img{
+        width: 80px;
+        height: auto;
+        margin-right: 20px;/* espaçamento externo a direita */
+        border-radius: 10px;/*borda arredondada*/
+    }
+
+    .container{
+        width: 80%;
+        margin: 20px auto; /* 20px encima e embaixo e automático na esquerda e direita */
+        background: white;
+        padding: 20px; /* espaçamento interno é dos 4 lados */
+        border-radius: 10px;
+        text-align: justify ;
+    }
